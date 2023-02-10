@@ -13,8 +13,6 @@ RUN git clone https://github.com/wahyd4/forego.git \
 
 FROM alpine:edge
 
-LABEL AUTHOR=Junv<wahyd4@gmail.com>
-
 WORKDIR /app
 
 ENV RPC_SECRET=""
